@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native                # "native" = read from a folder instead of Git
+  cloud:
+    config:
+      server:
+        native:
+          # Folder is re-read on every request, so edits are visible without a restart.
+          # Default assumes the working dir is the config-server module. Override with:
+          #   CONFIG_REPO_LOCATION=file:/absolute/path/to/config-repo/
+          # (Trailing slash matters. Do NOT use classpath:/config/ - Boot would load it as its own config.)
+          search-locations: ${CONFIG_REPO_LOCATION:file:../config-repo/}
+        # Production: replace "native" with Git
+        #   git:
+        #     uri: https://github.com/your-org/config-repo
+        #     default-label: main

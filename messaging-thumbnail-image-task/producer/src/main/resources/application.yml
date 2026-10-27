@@ -1,0 +1,12 @@
+image-directories:
+  imageBaseDir: producer/src/main/resources/image-demo/images
+  thumbnailBaseDir: producer/src/main/resources/image-demo/thumbnails
+
+messaging-config:
+  exchangeName: image.processing.exchange
+  queueName: image.processing.queue
+  routingKey: thumbnail.create
+
+logging:
+  level:
+    com.epam.training: DEBUG

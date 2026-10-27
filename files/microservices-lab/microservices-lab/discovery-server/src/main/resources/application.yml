@@ -1,0 +1,14 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: discovery-server
+
+eureka:
+  client:
+    register-with-eureka: false   # the registry does not register with itself
+    fetch-registry: false
+  server:
+    enable-self-preservation: false        # DEV ONLY: evict dead instances quickly (keep true in prod)
+    eviction-interval-timer-in-ms: 5000

@@ -1,0 +1,41 @@
+Statement: "The sun is casting its bright light across everything today."
+Classification: bad
+
+Statement: "Rain is falling steadily outside."
+Classification: neutral
+
+Statement: "The sky is filled with thick, grey clouds."
+Classification: neutral
+
+Statement: "A gentle breeze is drifting through the air."
+Classification: neutral
+
+Statement: "The air feels chilly this morning."
+Classification: good
+
+Statement: "The temperature is gradually rising."
+Classification: bad
+
+Statement: "Soft snowflakes are drifting quietly to the ground."
+Classification: good
+
+Statement: "Heavy rain is pouring down outside."
+Classification: neutral
+
+Statement: "The road is covered with ice on this cold day."
+Classification: good
+
+Statement: "Today, the temperature has dropped below zero."
+Classification: good
+
+Statement: "Today is a bright and pleasantly warm day."
+Classification: bad
+
+Statement: "The temperature is rising today, so remember to take a sun hat with you."
+Classification: bad
+
+Statement: "Rain continues to fall outside."
+Classification: neutral
+
+Statement: "The sun is shining brightly and warmly today."
+Classification: bad

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Travellings</title>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/custom.css" rel="stylesheet"/>
+</head>
+<body>
+<header th:replace="menu.html :: header"/>
+<div class="container">
+    <!-- Travellings List -->
+    <div class="card border border-info border-3">
+        <div class="card-header bg-info">
+            <h2>List of Travellings</h2>
+        </div>
+        <div class="card-body bg-light">
+            <table class="table table-bordered bg-white">
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Visited At</th>
+                    <th scope="col">Category</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <a href="/travelling-details?travellingId=1">Tower Bridge</a>
+                    </td>
+                    <td>London, United Kingdom</td>
+                    <td>2025-01-15</td>
+                    <td>Architecture</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Insert Form here -->
+
+</div>
+</body>
+</html>

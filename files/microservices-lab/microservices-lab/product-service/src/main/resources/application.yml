@@ -1,0 +1,7 @@
+# Bootstrap-only config. Port, datasource, Eureka URL, etc. come from the Config Server
+# (config-repo/application.yml + product-service.yml [+ product-service-<profile>.yml]).
+spring:
+  application:
+    name: product-service
+  config:
+    import: "configserver:${CONFIG_SERVER_URL:http://localhost:8888}"   # required: fail fast if unreachable

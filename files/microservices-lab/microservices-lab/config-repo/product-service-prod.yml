@@ -1,0 +1,13 @@
+# Served only when product-service runs with the "prod" profile.
+# Config Server merges product-service.yml + product-service-prod.yml; the prod file wins.
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/productdb
+    username: ${DB_USER:product}
+    password: ${DB_PASSWORD:change-me}
+  jpa:
+    hibernate:
+      ddl-auto: update         # real projects: Flyway/Liquibase + "validate"
+
+product:
+  banner: "Hello from product-service (PROD profile)"

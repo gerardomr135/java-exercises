@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      server:
+        webflux:                 # Spring Cloud 2025.0+ prefix (older trains: spring.cloud.gateway.routes)
+          routes:
+            - id: product-service
+              uri: lb://product-service        # lb:// = resolve via Eureka + client-side load balancing
+              predicates:
+                - Path=/api/products/**,/api/info
+            - id: order-service
+              uri: lb://order-service
+              predicates:
+                - Path=/api/orders/**
+          default-filters:
+            - AddResponseHeader=X-Gateway, spring-cloud-gateway
+          # Alternative: auto-create routes from Eureka (/<service-id>/**)
+          # discovery:
+          #   locator:
+          #     enabled: true

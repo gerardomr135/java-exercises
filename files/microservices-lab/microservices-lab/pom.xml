@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- Spring Boot 3.5.x is the last Boot 3 line; it pairs with the Spring Cloud 2025.0.x train (Northfields).
+       Boot 4 needs Spring Cloud 2025.1.x and has different package names, so it is intentionally not used here. -->
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.5.8</version>
+    <relativePath/>
+  </parent>
+
+  <groupId>com.example</groupId>
+  <artifactId>microservices-lab</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>microservices-lab</name>
+
+  <properties>
+    <java.version>21</java.version>
+    <spring-cloud.version>2025.0.1</spring-cloud.version>
+  </properties>
+
+  <modules>
+    <module>config-server</module>
+    <module>discovery-server</module>
+    <module>product-service</module>
+    <module>order-service</module>
+    <module>api-gateway</module>
+  </modules>
+
+  <!-- Spring Cloud BOM: one version number decides the version of every Spring Cloud library -->
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

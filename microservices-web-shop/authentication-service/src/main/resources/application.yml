@@ -1,0 +1,43 @@
+logging:
+  level:
+    com.example: DEBUG
+    org.springframework.security: TRACE
+    root: WARN
+    web: INFO
+server:
+  port: 9000
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: ''
+    url: jdbc:h2:mem:testdb
+    username: sa
+  h2:
+    console:
+      enabled: false
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+    generate-ddl: true
+  sql:
+    init:
+      encoding: UTF-8
+token:
+  expirationms: 3600000
+  secret:
+    privateKey: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3hsGkWJonc0Hhf8cNkD9GL4MI7Yf0baFDiwDIbK2U2dfZlMqMncPR5O0oKumEALwgtKaB9zH2lWUMhPv2i6tpGpTglY2Kx/uEFXF6c/jHuV75ryW8msdkvUkMUPF0k60jcd6RFcZJgRq4qSjh/0FXyp1QWzkWCGflqZ7tjFiQqO66Q9pKxVXgKqxEI+km2UmYSrAbW5Dw15EUzqNFLUSXgcTZ61Y9Z/u0ZQ/ZUV/XY31hWz20C9BiHWf7FYGKfoK1hiy2Ghnuoeq5HnB85+awa8v+ovnvF+y8Km9Zi8O5eeaAjHaYSx48yO/JdcX1tTfZIOlW2S+m436XtXTIIZopAgMBAAECggEAU73ZffQv4vBkj1COs1GujYgAcoJwFsgvXXJ/2PQ+AD2mkFGkWqViRNQAouNxyhnLveCwWX1B/xIMGbpUfhsdC8hlRlT3UOwPiCWAsi9YxUmAXM3emkDF2uHEAyqsAlWgGxxKQkl9QOz4FGqbjQO7/SMmxRPa6ILNZa4QJrRzdQ3abTy9VOnhftW9vlVMPaddj2NizaTz0oV21Vy3NQhPnnNJCf+wIJhJq9pCHvCAaaXDd8N/9P6nICMN4SGNGiZJTqqb5c1TgReRTwzDZfNe+ld8voXlvoMjV3a6pqgzgAGxXQL7lojmZuCw9K2/ywDw+CbJ9WErFdfAj9VIbAyUQQKBgQDQv4LgxPRP8Pag27XAqxTZqKv6Sm3ya23CPUW3z4SAjdvPp8EA67GkCtzdNgi8jLmCp8j1rSygdWtvt0PEkM2wUCEZY0JT4CgOaBzRv/fSVyJV/GrpyMFyTRfbQcidlpC535tgsunrDygcb+f7GODOfH0G1ITfjcHw/izJzsFb1wKBgQDhEbQlVukTSHJlXQkemKMxsW0+pFiU3oCaJvKw9S8YWrXrW3TCWKAzvX8JvdVzQ8M09YFeJL5Y47RzxwsB6K1eM6P989exqUvRTVMY5L0VdtFGs7YtbIc5ayax+Zqnxzt7iRJLyAeCfJmi0N4FACmBZBtxZ0Asj/+Hgg/JyAX5/wKBgFhGRFBMuYv8uC65+pgpQL3yiBdl1izHpTiYtJzQUpYSZzvfEs0S3qIiPdgF+5fQYrqPvXm268JHJVGuzCeZnIHMwNJ9mRTjG81L1bQVW/VFB64Y+hU24ic11rrPjMinXThdCNXRkv3mAO5VnGIg2SA4oJ58zFvFFJiWw9XravUtAoGBAIPNZUy0j7ueInffutZzFqakO9CCV+meP3uGsXsVqmW9wWk53q9tTSvfngSradOdbDSYTRE/vUS63FMszfJpOxW+chvm73p4JRFGEhKy6VQnh7i6x0Xkl2/1oux4uqvkTZ4zkEZWtqcgpqwlWs9c3/GJGVUY3Qj7ru3BKdPF0lIrAoGARZbpOhCa3OeL3FILEJIQjG0OiUnv0F+bbhUnvbH8UTnVv/FOiJQ5Wn5vQ7jJ+0AnRGcnm9npz758YvZd0NEsQ/lEYQQ7J6Th9Oelj4e6IiXE+IhbqYeAjkZWT5sIfS4yU/RdkpQmTVsVHR744fwQEQs8bvSMqNfxgwRWIGss9l4=
+
+user-store:
+  users:
+    - email: david.brown@users.com
+      password: password
+      role: ROLE_USER
+      name: David Brown
+    - email: robert.martinez@users.com
+      password: password
+      role: ROLE_USER
+      name: Robert Martinez
+    - email: admin.manager@users.com
+      password: password
+      role: ROLE_ADMIN
+      name: Admin Manager

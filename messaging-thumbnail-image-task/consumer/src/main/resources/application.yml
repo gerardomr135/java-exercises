@@ -1,0 +1,6 @@
+messaging-config:
+  queueName: image.processing.queue
+
+thumbnail-config:
+  width: 200
+  height: 200

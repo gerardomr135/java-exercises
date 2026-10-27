@@ -1,0 +1,6 @@
+Name, Year of Birth, Country, Main Role
+John Ronald Reuel Tolkien, 1892, England, Writer and philologist
+Peter I, 1672, Russia, Tsar and Emperor
+Leonardo di ser Piero da Vinci, 1452, Italy, Polymath
+Johann Sebastian Bach, 1685, Germany, Composer and musician
+Ignaz Philipp Semmelweis, 1818, Hungary, Physician and scientist

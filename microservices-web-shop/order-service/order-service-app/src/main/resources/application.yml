@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:h2:mem:orderdb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate.ddl-auto: none
+  h2:
+    console.enabled: true
+
+server:
+  port: 8080
+
+token:
+  secret:
+    publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt4bBpFiaJ3NB4X/HDZA/Ri+DCO2H9G2hQ4sAyGytlNnX2ZTKjJ3D0eTtKCrphAC8ILSmgfcx9pVlDIT79ouraRqU4JWNisf7hBVxenP4x7le+a8lvJrHZL1JDFDxdJOtI3HekRXGSYEauKko4f9BV8qdUFs5Fghn5ame7YxYkKjuukPaSsVV4CqsRCPpJtlJmEqwG1uQ8NeRFM6jRS1El4HE2etWPWf7tGUP2VFf12N9YVs9tAvQYh1n+xWBin6CtYYsthoZ7qHquR5wfOfmsGvL/qL57xfsvCpvWYvDuXnmgIx2mEsePMjvyXXF9bU32SDpVtkvpuN+l7V0yCGaKQIDAQAB
+
+logging:
+  level:
+    root: INFO
+#    org.springframework.security: TRACE
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+feign:
+  client:
+    config:
+      default:
+        requestInterceptors:
+          com.epam.training.order.clientsecurity.JwtTokenRequestInterceptor

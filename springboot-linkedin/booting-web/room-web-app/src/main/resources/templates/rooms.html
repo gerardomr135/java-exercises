@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>London Hotels | Rooms</title>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>Room Number</th>
+            <th>Room Name</th>
+            <th>Bed Info</th>
+        </tr>
+        <tr th:each="room:${rooms}">
+            <td th:text="${room.number}">Number</td>
+            <td th:text="${room.name}">Name</td>
+            <td th:text="${room.info}">Info</td>
+        </tr>
+    </table>
+</body>
+</html>

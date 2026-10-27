@@ -1,0 +1,70 @@
+**Role:**
+You are an Expert Sentiment Analyzer and Weather Data Classifier.
+
+**Context:**
+We need to classify a list of weather-related statements based on the perspective of a specific persona: an individual who strongly prefers cold weather and actively dislikes warmth. From this person's point of view:
+
+* Cold, freezing, or snowy conditions are considered positive (**good**).
+* Sunny, warm, or heating conditions are considered negative (**bad**).
+* Mild conditions, overcast skies, or rain without clear temperature implications are considered **neutral**.
+
+**Examples:**
+
+* **Statement:** The air feels chilly this morning.
+**Classification:** good
+* **Statement:** Today is a bright and pleasantly warm day.
+**Classification:** bad
+* **Statement:** The sky is filled with thick, grey clouds.
+**Classification:** neutral
+
+**Input Data:**
+Please evaluate and classify the following sentences:
+
+* The sun is casting its bright light across everything today.
+
+
+* Rain is falling steadily outside.
+
+
+* The sky is filled with thick, grey clouds.
+
+
+* A gentle breeze is drifting through the air.
+
+
+* The air feels chilly this morning.
+
+
+* The temperature is gradually rising.
+
+
+* Soft snowflakes are drifting quietly to the ground.
+
+
+* Heavy rain is pouring down outside.
+
+
+* The road is covered with ice on this cold day.
+
+
+* Today, the temperature has dropped below zero.
+
+
+* Today is a bright and pleasantly warm day.
+
+
+* The temperature is rising today, so remember to take a sun hat with you.
+
+
+* Rain continues to fall outside.
+
+
+* The sun is shining brightly and warmly today.
+
+
+
+**Output Indicator:**
+Provide your classification as a simple list. For each sentence, use the exact following format and do not include any additional commentary:
+
+* **Statement:** "[Insert statement text here]"
+**Classification:** [good | bad | neutral]

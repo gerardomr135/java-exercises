@@ -1,0 +1,6 @@
+# Bootstrap-only config. Everything else comes from the Config Server (config-repo/order-service.yml).
+spring:
+  application:
+    name: order-service
+  config:
+    import: "configserver:${CONFIG_SERVER_URL:http://localhost:8888}"   # required: fail fast if unreachable

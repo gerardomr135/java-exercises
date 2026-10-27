@@ -1,0 +1,220 @@
+{
+  "id": "tt0076759",
+  "type": "movie",
+  "primaryTitle": "Star Wars: Episode IV - A New Hope",
+  "originalTitle": "Star Wars",
+  "primaryImage": {
+    "url": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_.jpg",
+    "width": 1920,
+    "height": 2937
+  },
+  "startYear": 1977,
+  "runtimeSeconds": 7260,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "rating": {
+    "aggregateRating": 8.6,
+    "voteCount": 1553242
+  },
+  "metacritic": {
+    "score": 90,
+    "reviewCount": 24
+  },
+  "plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+  "directors": [
+    {
+      "id": "nm0000184",
+      "displayName": "George Lucas",
+      "alternativeNames": [
+        "George",
+        "George L.",
+        "Lucas"
+      ],
+      "primaryImage": {
+        "url": "https://m.media-amazon.com/images/M/MV5BMTA0Mjc0NzExNzBeQTJeQWpwZ15BbWU3MDEzMzQ3MDI@._V1_.jpg",
+        "width": 271,
+        "height": 400
+      },
+      "primaryProfessions": [
+        "director",
+        "producer",
+        "writer"
+      ]
+    }
+  ],
+  "writers": [
+    {
+      "id": "nm0000184",
+      "displayName": "George Lucas",
+      "alternativeNames": [
+        "George",
+        "George L.",
+        "Lucas"
+      ],
+      "primaryImage": {
+        "url": "https://m.media-amazon.com/images/M/MV5BMTA0Mjc0NzExNzBeQTJeQWpwZ15BbWU3MDEzMzQ3MDI@._V1_.jpg",
+        "width": 271,
+        "height": 400
+      },
+      "primaryProfessions": [
+        "director",
+        "producer",
+        "writer"
+      ]
+    }
+  ],
+  "stars": [
+    {
+      "id": "nm0000402",
+      "displayName": "Carrie Fisher",
+      "primaryImage": {
+        "url": "https://m.media-amazon.com/images/M/MV5BMjM3MjI4NTI4MV5BMl5BanBnXkFtZTgwNzgyMzQyNDM@._V1_.jpg",
+        "width": 2048,
+        "height": 1363
+      },
+      "primaryProfessions": [
+        "actress",
+        "miscellaneous",
+        "writer"
+      ]
+    },
+    {
+      "id": "nm0000434",
+      "displayName": "Mark Hamill",
+      "alternativeNames": [
+        "?",
+        "Mark Hamil",
+        "Mark",
+        "William M. Patrick",
+        "Patrick Williams"
+      ],
+      "primaryImage": {
+        "url": "https://m.media-amazon.com/images/M/MV5BMjZjY2I2NmYtMTMxMC00OTYwLWI0M2UtZWNkYzMyOGNlNmY4XkEyXkFqcGc@._V1_.jpg",
+        "width": 1005,
+        "height": 1280
+      },
+      "primaryProfessions": [
+        "actor",
+        "director",
+        "producer"
+      ]
+    },
+    {
+      "id": "nm0000148",
+      "displayName": "Harrison Ford",
+      "alternativeNames": [
+        "Jethro the Bus Driver",
+        "Harrison J. Ford"
+      ],
+      "primaryImage": {
+        "url": "https://m.media-amazon.com/images/M/MV5BMTY4Mjg0NjIxOV5BMl5BanBnXkFtZTcwMTM2NTI3MQ@@._V1_.jpg",
+        "width": 269,
+        "height": 400
+      },
+      "primaryProfessions": [
+        "actor",
+        "producer",
+        "writer"
+      ]
+    },
+    {
+      "id": "nm0000027",
+      "displayName": "Alec Guinness",
+      "alternativeNames": [
+        "Alec Guiness",
+        "Mr. Alec Guinness",
+        "Sir Alec Guinness",
+        "Mystery Guest Star"
+      ],
+      "primaryImage": {
+        "url": "https://m.media-amazon.com/images/M/MV5BMTUyMjgzMjczOF5BMl5BanBnXkFtZTgwNzcyMzQyNDM@._V1_.jpg",
+        "width": 1326,
+        "height": 2048
+      },
+      "primaryProfessions": [
+        "actor",
+        "soundtrack",
+        "writer"
+      ]
+    }
+  ],
+  "originCountries": [
+    {
+      "code": "US",
+      "name": "United States"
+    }
+  ],
+  "spokenLanguages": [
+    {
+      "code": "eng",
+      "name": "English"
+    }
+  ],
+  "interests": [
+    {
+      "id": "in0000001",
+      "name": "Action"
+    },
+    {
+      "id": "in0000002",
+      "name": "Action Epic",
+      "isSubgenre": true
+    },
+    {
+      "id": "in0000012",
+      "name": "Adventure"
+    },
+    {
+      "id": "in0000015",
+      "name": "Adventure Epic",
+      "isSubgenre": true
+    },
+    {
+      "id": "in0000019",
+      "name": "Quest",
+      "isSubgenre": true
+    },
+    {
+      "id": "in0000077",
+      "name": "Epic",
+      "isSubgenre": true
+    },
+    {
+      "id": "in0000096",
+      "name": "Fantasy Epic",
+      "isSubgenre": true
+    },
+    {
+      "id": "in0000098",
+      "name": "Fantasy"
+    },
+    {
+      "id": "in0000100",
+      "name": "Sword & Sorcery",
+      "isSubgenre": true
+    },
+    {
+      "id": "in0000160",
+      "name": "Dystopian Sci-Fi",
+      "isSubgenre": true
+    },
+    {
+      "id": "in0000162",
+      "name": "Sci-Fi"
+    },
+    {
+      "id": "in0000163",
+      "name": "Sci-Fi Epic",
+      "isSubgenre": true
+    },
+    {
+      "id": "in0000164",
+      "name": "Space Sci-Fi",
+      "isSubgenre": true
+    }
+  ]
+}

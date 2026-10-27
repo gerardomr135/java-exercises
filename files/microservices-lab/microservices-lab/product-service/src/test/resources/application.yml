@@ -1,0 +1,10 @@
+# Test config shadows the main application.yml: no Config Server, no Eureka needed for tests.
+spring:
+  application:
+    name: product-service
+  cloud:
+    config:
+      enabled: false
+eureka:
+  client:
+    enabled: false

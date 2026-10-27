@@ -1,0 +1,8 @@
+app:
+  imdb:
+    base-url: https://api.imdbapi.dev
+    search-path: /search/titles
+    details-path: /titles/{id}
+
+server:
+  port: 8080

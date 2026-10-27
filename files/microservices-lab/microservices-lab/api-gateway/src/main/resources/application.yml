@@ -1,0 +1,7 @@
+# Bootstrap-only config. Everything else (port, routes, Eureka URL) comes from the Config Server
+# file config-repo/api-gateway.yml, matched by spring.application.name.
+spring:
+  application:
+    name: api-gateway
+  config:
+    import: "configserver:${CONFIG_SERVER_URL:http://localhost:8888}"   # required: fail fast if unreachable

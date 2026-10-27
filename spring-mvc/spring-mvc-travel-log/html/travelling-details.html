@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Travelling Details</title>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/custom.css" rel="stylesheet"/>
+</head>
+<body>
+<header th:replace="menu.html :: header"/>
+<div class="container">
+    <div class="card border border-info border-3 mt-3">
+        <div class="card-header bg-info">
+            <h2>Update Travelling Review</h2>
+        </div>
+        <div class="card-body bg-light">
+            <!-- Example form and content. To be deleted. -->
+            <form action="/travelling-details?travellingId=4"
+                  method="post" class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Location</dt>
+                    <dd class="col-sm-9">London, United Kingdom</dd>
+
+                    <dt class="col-sm-3">Visited At</dt>
+                    <dd class="col-sm-9">2025-01-15</dd>
+
+                    <dt class="col-sm-3">Category</dt>
+                    <dd class="col-sm-9">Architecture</dd>
+
+                    <dt class="col-sm-3">Review</dt>
+                    <dd class="col-sm-9">
+                        <textarea class="form-control" id="review" name="review">
+An amazing place to visit!
+Tower Bridge offers stunning views of the city, an interesting museum, and all at an affordable price.
+A must-see in London!
+                        </textarea>
+                    <dd/>
+                </dl>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+
+            <!--
+            This is the Thymeleaf form that will replace the example form above.
+            <form th:action="@{/travelling-details(travellingId=${travelling.id})}"
+                  th:object="${travelling}" method="post" class="card-body">
+                <p class="alert-success alert" th:if="${successMessage}" th:text="${successMessage}">
+                    Review has been updated successfully.</p>
+                <dl class="row">
+                    <dt class="col-sm-3">Location</dt>
+                    <dd class="col-sm-9" th:text="${travelling.location}"/>
+
+                    <dt class="col-sm-3">Visited At</dt>
+                    <dd class="col-sm-9" th:text="${travelling.visitedAt}"/>
+
+                    <dt class="col-sm-3">Category</dt>
+                    <dd class="col-sm-9" th:text="${travelling.category}"/>
+
+                    <dt class="col-sm-3">Review</dt>
+                    <dd class="col-sm-9">
+                        <textarea class="form-control" th:field="*{review}"/>
+                    <dd/>
+                </dl>
+                <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+            -->
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+**Role:**
+You are a meticulous News Archivist and Data Categorization Expert.
+
+**Context:**
+We are building a searchable, historical database of global news articles published over the past 20 years. To make this archive functional, we need to accurately categorize a large backlog of unclassified news items into specific thematic buckets.
+
+**Task:**
+Please read the contents of the attached `.txt` file, which contains multiple news articles. For each distinct news item found in the document, assign exactly one of the following labels based on its primary theme:
+- culture
+- technology
+- energy
+- religion
+- sport
+
+**Instructions:**
+1. Process the entire attached `.txt` file from beginning to end.
+2. Separate the text into distinct news items (they may be separated by line breaks, dates, or headlines).
+3. Assign the single most accurate label from the provided list to each item.
+4. To guarantee we know which label belongs to which article, you must extract and repeat a short, recognizable detail (such as the headline or the opening sentence) from the original text.
+
+**Input Data:**
+The news articles are provided in the attached `.txt` file. Please read the document now.
+
+**Output Indicator:**
+Present your final classifications using the following structured format for every article found in the file:
+
+- **Excerpt:** "[Insert the headline or a 1-2 sentence quote from the article here]"
+- **Label:** [culture | technology | energy | religion | sport]
+---

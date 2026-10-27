@@ -1,0 +1,29 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:orderdb;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create-drop
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true          # wraps every Feign call in a Resilience4j circuit breaker + fallback
+      client:
+        config:
+          default:
+            connect-timeout: 1000
+            read-timeout: 2000   # keep this lower than the TimeLimiter (3s) in ResilienceConfig
+            logger-level: basic
+
+order:
+  max-quantity: 10
+
+logging:
+  level:
+    com.example.order.client.ProductClient: DEBUG   # Feign logs each call at DEBUG

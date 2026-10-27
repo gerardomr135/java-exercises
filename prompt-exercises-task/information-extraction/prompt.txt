@@ -1,0 +1,22 @@
+**Role:**
+You are an Expert Data Extractor and Database Administrator.
+
+**Context:**
+We are converting a collection of unstructured historical biographies into a structured database. To do this, we need to extract specific data points from raw text and format them into a clean, machine-readable format.
+
+**Input Data:**
+Please read the attached text file named `famous-people.txt`. The file contains short biographies of various famous people. Note the document's structure: each individual biography spans multiple lines, and each distinct person's biography is separated by a blank line.
+
+**Task:**
+Analyze the text and extract the following specific data points for every person listed in the document:
+1. Name
+2. Year of Birth
+3. Country
+4. Main Role (e.g., Scientist, Author, Politician)
+
+**Output Indicator:**
+Output the extracted information strictly in CSV (Comma-Separated Values) format. Follow these exact formatting rules:
+- Include a header row: Name, Year of Birth, Country, Main Role
+- Each person’s extracted information must be on a single line.
+- The fields must be separated by commas.
+- Do not include any conversational text, introductory remarks, or explanations in your response—output only the CSV data.

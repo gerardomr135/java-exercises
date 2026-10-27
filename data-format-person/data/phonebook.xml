@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<phonebook>
+    <subscriber>
+        <phone-number>123-456-7890</phone-number>
+        <client-name>John Doe</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-555-5555</phone-number>
+        <client-name>John Doe</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-555-5555</phone-number>
+        <client-name>Michael Johnson</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-123-4567</phone-number>
+        <client-name>Michael Johnson</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>111-333-0000</phone-number>
+        <client-name>Michael Johnson</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>123-123-1234</phone-number>
+        <client-name>Robert Davis</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-777-0000</phone-number>
+        <client-name>Robert Davis</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>333-444-5555</phone-number>
+        <client-name>Christopher Anderson</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>777-888-9999</phone-number>
+        <client-name>Matthew Martinez</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>222-333-4444</phone-number>
+        <client-name>William Clark</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-222-1111</phone-number>
+        <client-name>William Clark</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-555-5555</phone-number>
+        <client-name>Joseph Lee</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-123-4567</phone-number>
+        <client-name>Joseph Lee</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>123-123-1234</phone-number>
+        <client-name>David Martinez</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-777-0000</phone-number>
+        <client-name>David Martinez</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>333-444-5555</phone-number>
+        <client-name>Daniel Kim</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>777-888-9999</phone-number>
+        <client-name>Alexander Thompson</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>222-333-4444</phone-number>
+        <client-name>James Hall</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-222-1111</phone-number>
+        <client-name>James Hall</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-555-5555</phone-number>
+        <client-name>Benjamin Lewis</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-123-4567</phone-number>
+        <client-name>Benjamin Lewis</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>123-123-1234</phone-number>
+        <client-name>Chloe Adams</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-777-0000</phone-number>
+        <client-name>Chloe Adams</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>333-444-5555</phone-number>
+        <client-name>Lily Robinson</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>777-888-9999</phone-number>
+        <client-name>Avery Foster</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>222-333-4444</phone-number>
+        <client-name>Henry Mitchell</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-222-1111</phone-number>
+        <client-name>Henry Mitchell</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-555-5555</phone-number>
+        <client-name>Owen Evans</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-123-4567</phone-number>
+        <client-name>Owen Evans</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>123-123-1234</phone-number>
+        <client-name>Gabriel Cook</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-777-0000</phone-number>
+        <client-name>Gabriel Cook</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>333-444-5555</phone-number>
+        <client-name>Julian Reed</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>777-888-9999</phone-number>
+        <client-name>Levi Bennett</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>222-333-4444</phone-number>
+        <client-name>Samuel Campbell</client-name>
+    </subscriber>
+    <subscriber>
+        <phone-number>555-222-1111</phone-number>
+        <client-name>Samuel Campbell</client-name>
+    </subscriber>
+</phonebook>
